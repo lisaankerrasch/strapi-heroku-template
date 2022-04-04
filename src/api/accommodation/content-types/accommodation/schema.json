@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accommodations",
+  "info": {
+    "singularName": "accommodation",
+    "pluralName": "accommodations",
+    "displayName": "accommodation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
